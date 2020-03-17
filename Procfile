@@ -1,1 +1,1 @@
-web: gunicorn mhphotography-ms4.wsgi:application
+web: gunicorn ecommerce.wsgi:application
