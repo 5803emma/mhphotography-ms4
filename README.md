@@ -179,7 +179,7 @@ If the quantity of the cart is left blank and the user presses "Add" this return
 If the quantity of the cart is 1 and no amendment is made, when the user presses "Amend" the same error is returned.
 Unfortunately I noticed this error on deadline day and did not have time to fix it.
 
-<h1 align="center"><img src="/static/images/bg.jpg" alt="Value Error when Testing"></h1>
+<h1 align="center"><img src="/testing/valueerror.png" alt="Value Error when Testing"></h1>
 
 ### Deployment
 
