@@ -78,13 +78,13 @@ Using Google Fonts I selected the font Boola-Da throughout the application.
 I utilised Font-Awesome icons for my social links and also for my nav bar
 
 #### Logo
-I designed a logo for Mark Hayes photogrpahy and I have displayed this in my nav-bar, I feel this gives the page a professional look. 
+The logo for Mark Hayes photogrpahy was designed by the photographer and a friend who is a graphic designer.  This is displayed in nav-bar to give the page a professional look. 
 
 #### Colours
 The colours of the site were used to complement and contrast with the background image, which is consistent across the apps.
 
 ### Wireframes
-Project wireframes were created using MS Paint and can be found in the wirefreames folder.
+Project wireframes were created using MS Paint and can be found in the wireframes folder.
 
 
 
@@ -122,8 +122,11 @@ Project wireframes were created using MS Paint and can be found in the wirefream
 #### Future Features
 - Time was again an issue with this project and unfortunately, there are many more features I would like to include to enhance the appeal and useability of the app.
     - I intended to link a portfolio app where users can view previous work and filter the content by the packages they are interested in
+        - Each image in the panel body cards would link to a gallery of previous relevant work/photos
     - I intended to have a landing page as the first thing the user sees.  On that page they will be given information about the service and invited to login to view the portfolio.
+    - An availibility calendar would be essential for event and occasion photography.
     - I think a user review section would be a useful feature to new visitors to the site.
+    - Registered users would have the function to access their own albums using a unique password.
 
 
 
@@ -151,7 +154,7 @@ Project wireframes were created using MS Paint and can be found in the wirefream
 
 ### Testing
 
-I set up Continous Integration which automated testing for every app using Travis. By creating a .travis.yml file and also linking my GitHub repository to my Travis account I was able to achieve this. The Travis Markdown allowed me to see easily whether my code was passing or failing. Each time new code was pushed to Github it was Travis Tested. 
+There is Continous Integration with automated testing for each app using Travis. By creating a .travis.yml file and also linking my GitHub repository to my Travis account I was able to achieve this. The Travis Markdown allowed me to see easily whether my code was passing or failing. Each time new code was pushed to Github it was Travis Tested. 
 #
 
 I used Chrome DevTools to check the responsiveness of my application.
