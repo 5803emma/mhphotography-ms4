@@ -10,9 +10,9 @@ The deployed project can be found at: https://mhphotography-ms4.herokuapp.com/
 ### User Experience (UX)
 #### Project Purpose
 
-This project is a full stack web application.  The site provides an means to purchase photogrpahy services with a secure payment facility.  On the product page, the types of services available can be viewed and filtered; the desired service(s) can be added to the visitors shopping cart.  Users must register in order to complete their purchase(s).  The rationale behind this, is that the nature of the available services require a future interaction between the customer and the photographer (weddings, sporting events etc.), so user will likely understand the need to register their details in order to provide information about their event/project to the photographer.
+This project is a full stack web application.  The site provides an means to purchase photography services with a secure payment facility.  On the product page, the types of services available can be viewed and filtered; the desired service(s) can be added to the visitors shopping cart.  Users must register in order to complete their purchase(s).  The rationale behind this, is that the nature of the available services require a future interaction between the customer and the photographer (weddings, sporting events etc.), so user will likely understand the need to register their details in order to provide information about their event/project to the photographer.
 
-There are six photogrpahy packages available for the user to purchase:
+There are six photography packages available for the user to purchase:
 * Drone Photography
 * Sports Photography
 * Special Events
@@ -27,7 +27,7 @@ The application uses a postgres database and it is set up with the Django framew
 
 #### Project Purpose
 
-The goal of the application is to allow users to purchase photogrpahy services from the photographer.  Registered users can purchase these packages at a discounted rate.
+The goal of the application is to allow users to purchase photography services from the photographer.  Registered users can purchase these packages at a discounted rate.
 
 **The target audiences are:**
 
@@ -78,7 +78,7 @@ Using Google Fonts I selected the font Boola-Da throughout the application.
 I utilised Font-Awesome icons for my social links and also for my nav bar
 
 #### Logo
-The logo for Mark Hayes photogrpahy was designed by the photographer and a friend who is a graphic designer.  This is displayed in nav-bar to give the page a professional look. 
+The logo for Mark Hayes photography was designed by the photographer and a friend who is a graphic designer.  This is displayed in nav-bar to give the page a professional look. 
 
 #### Colours
 The colours of the site were used to complement and contrast with the background image, which is consistent across the apps.
