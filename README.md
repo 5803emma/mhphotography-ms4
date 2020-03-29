@@ -3,6 +3,8 @@
 
 [![Build Status](https://travis-ci.org/5803emma/mhphotography-ms4.svg?branch=master)](https://travis-ci.org/5803emma/mhphotography-ms4)
 
+<h1 align="center"><img src="/static/images/MH_02_transparent.png" alt="Mark Hayes Sports Photography Header"></h1>
+
 The deployed project can be found at: https://mhphotography-ms4.herokuapp.com/
 
 ### User Experience (UX)
@@ -176,7 +178,7 @@ I conducted manual testing as a user by;
 ### Issue when Testing
 
 If the quantity of the cart is left blank and the user presses "Add" this returns an error: invalid literal for int() with base 10: ''
-If the quantity of the cart is 1 and no amendment is made, when the user presses "Amend" the same error is returned.
+Similarly, in the adjust_cart view, if the quantity of the cart is 1 and no amendment is made, when the user presses "Amend" the same error is returned (see image below).
 Unfortunately I noticed this error on deadline day and did not have time to fix it.
 
 <h1 align="center"><img src="/testing/valueerror.png" alt="Value Error when Testing"></h1>
@@ -184,14 +186,24 @@ Unfortunately I noticed this error on deadline day and did not have time to fix 
 ### Deployment
 
 * Within the AWS Cloud 9 IDE I opened the terminal and using git I pushed to my <a href="https://github.com/5803emma/mhphotography-ms4">repository</a> on Github. 
-* I then created a new app on Heroku and deployed the application to same.
-* In Heroku deployment method was set to Github with automatic deploys set from the master branch.
-* The app was then deployed via this link: "https://mhphotography-ms4.herokuapp.com/".
+* I then opened Heroku and created a new app, set config variables and deployed the application to the Heroku platform.
+* In Heroku deployment method was set to Github with automatic deploys set from the master branch. 
+* The app was then deployed and can be viewed at this link: "https://mhphotography-ms4.herokuapp.com/".
 
 #### To clone the repository:
 * Select the Repository from Github.
-* Click on the "Clone or download" green button
-* Click on the "clipboard icon" to the right of the Git URL to copy the web URL.
-* Open your IDE and navigate to terminal window
+* Click on the green "Clone or Download" button
+* Click on the "Clipboard Icon" to the right of the Git URL to copy the web URL.
+* Open your IDE and navigate to the terminal window
 * Change the directory to where you want to clone the repository to.
-* Paste the Git URL copied from above and click "Ok".
+* Paste the copied Git URL into the desired destination and click "Ok".
+
+## Credits
+
+- I used the Full Stack Frameworks With Django module tutorial videos to compile the site.
+- All photos are origial images from Mark Hayes Photography and Mark Hayes Sports Photography.
+
+## Thanks
+
+- Thanks to all the Code Institute staff, in particular Student Care for their patience and for being so accommodating.
+- Thanks to my mentor and to the Slack community for being so knowledgeable, supportive and helpful.
