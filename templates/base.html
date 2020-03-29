@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>MH Photography</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.7/cerulean/bootstrap.min.css">
     <link rel="stylesheet" href="{% static 'css/custom.css' %}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
@@ -27,7 +28,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="/">MH Photography</a>
+                <a class="navbar-brand" href="/"><img src="https://mhphotography-ms4.s3-eu-west-1.amazonaws.com/static/images/MH_02_transparent.png" width="200" height="113" ></a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
@@ -64,12 +65,57 @@
                 <button type="submit">Search</button>
             </form>
         </div>
+    
+   <!-- <img class="img-fluid rounded mb-4" src="/static/images/landing.png" alt="Mark Hayes Photography"> -->
+     
         {% block content %} {% endblock %}
     </div>
-    <footer>
-        <div class="container">
-            <p>Made by Code Institute bootcampers</p>
+
+     <!-- Footer -->
+    <footer class="fixed-bottom container-fluid">
+        <div id="footer-details" class="row">
+            <div class="col-sm-4">
+                <h5 class="uppercase general-sub">Image Rights</h5>
+                <p class="inline-block">
+                    All images are &#169; Mark Hayes.  Please ask for permission to print or reproduce.
+                </p>
+            </div>
+
+            <div class="col-sm-4">
+                <h5 class="uppercase general-sub">Website</h5>
+                <p class="inline-block">
+                    This website was developed for educational purposes as part of the Code Institute Full Stack Developer Diploma Programme
+
+                </p>
+
+            </div>
+            <div class="col-sm-4">
+                <h5 class="uppercase general-sub">Get Social!</h5>
+                <ul class="list-inline social-links">
+                    <li class="list-inline-item">
+                        <a target="_blank" rel="noopener noreferrer" aria-label="Follow me on Facebook" href="https://www.facebook.com/Mark-Hayes-Sports-Photography-2106450002754237/">
+                            <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                            <span class="sr-only">Facebook</span>
+                    </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" rel="noopener noreferrer" aria-label="Follow me on Twitter" href="https://www.twitter.com/Mark_Hayesmh">
+                            <i class="fab fa-twitter" aria-hidden="true"></i>
+                            <span class="sr-only">Twitter</span>
+                    </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" rel="noopener noreferrer" aria-label="Follow me on Instagram" href="https://www.instagram.com/markhayes_mh/">
+                            <i class="fab fa-instagram fa-10x" aria-hidden="true"></i>
+                            <span class="sr-only">Instagram</span>
+                    </a>
+                    </li>
+
+                </ul>
+
+            </div>
         </div>
+
     </footer>
 </body>
 
