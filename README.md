@@ -178,9 +178,11 @@ I conducted manual testing as a user by;
  - Checked all links in navbar brought the user to the revelant page
  - Checked the social links directed the user to the correct sites.
 
-### Issue when Testing
+### Issues when Testing
 
-If the quantity of the cart is left blank and the user presses "Add" this returns an error: invalid literal for int() with base 10: ''
+1. Due to the acquisition of Cloud 9 by AWS and a resulting change in the IDE, there were problems with the requirements.txt file.  The only fix seemed to be to manually go through each entry and delete the ones that were not required.
+
+2. If the quantity of the cart is left blank and the user presses "Add" this returns an error: invalid literal for int() with base 10: ''
 Similarly, in the adjust_cart view, if the quantity of the cart is 1 and no amendment is made, when the user presses "Amend" the same error is returned (see image below).
 Unfortunately I noticed this error on deadline day and did not have time to fix it.
 
