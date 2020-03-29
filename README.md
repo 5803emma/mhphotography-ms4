@@ -3,7 +3,7 @@
 
 [![Build Status](https://travis-ci.org/5803emma/mhphotography-ms4.svg?branch=master)](https://travis-ci.org/5803emma/mhphotography-ms4)
 
-<h1 align="center"><img src="/testing/MH_02_transparent.png" alt="Mark Hayes Sports Photography Header"></h1>
+<h1 align="center"><img src="/testing/header.png" alt="Mark Hayes Sports Photography Header"></h1>
 
 The deployed project can be found at: https://mhphotography-ms4.herokuapp.com/
 
