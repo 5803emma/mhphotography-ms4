@@ -128,6 +128,7 @@ Project wireframes were created using MS Paint and can be found in the wirefream
 ### Technologies Used
 
 - Amazon AWS Cloud 9
+    - Integrated Development Environment
 - HTML5
 - CSS3
 - Javascript/JQuery
@@ -151,7 +152,7 @@ Project wireframes were created using MS Paint and can be found in the wirefream
 I set up Continous Integration which automated testing for every app using Travis. By creating a .travis.yml file and also linking my GitHub repository to my Travis account I was able to achieve this. The Travis Markdown allowed me to see easily whether my code was passing or failing. Each time new code was pushed to Github it was Travis Tested. 
 #
 
-I used Chrome DevTools to check the responsiveness of my application. I checked that the media queries were operating on all screens from Samsung S5 to Desktop without any issues. 
+I used Chrome DevTools to check the responsiveness of my application.
 #
 
 I conducted manual testing as a user by;
@@ -171,11 +172,18 @@ I conducted manual testing as a user by;
  - Manually tested both the billing address form and the stripe APA form for required fields and for opertional functions.
  - Checked all links in navbar brought the user to the revelant page
  - Checked the social links directed the user to the correct sites.
- 
+
+### Issue when Testing
+
+If the quantity of the cart is left blank and the user presses "Add" this returns an error: invalid literal for int() with base 10: ''
+If the quantity of the cart is 1 and no amendment is made, when the user presses "Amend" the same error is returned.
+Unfortunately I noticed this error on deadline day and did not have time to fix it.
+
+<h1 align="center"><img src="testing/valueerror.jpg" alt="Value Error when Testing"></h1>
 
 ### Deployment
 
-* Within Cloud 9 IDE I opened the terminal and using git I pushed to my <a href="https://github.com/5803emma/mhphotography-ms4">repository</a> on Github. 
+* Within the AWS Cloud 9 IDE I opened the terminal and using git I pushed to my <a href="https://github.com/5803emma/mhphotography-ms4">repository</a> on Github. 
 * I then created a new app on Heroku and deployed the application to same.
 * In Heroku deployment method was set to Github with automatic deploys set from the master branch.
 * The app was then deployed via this link: "https://mhphotography-ms4.herokuapp.com/".
