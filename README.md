@@ -196,12 +196,35 @@ Unfortunately I noticed this error on deadline day and did not have time to fix 
 * The app was then deployed and can be viewed at this link: "https://mhphotography-ms4.herokuapp.com/".
 
 #### To clone the repository:
+- Install Python and Git.  
+- Set up an account with AWS and Stripe.
 * Select the Repository from Github.
 * Click on the green "Clone or Download" button
 * Click on the "Clipboard Icon" to the right of the Git URL to copy the web URL.
 * Open your IDE and navigate to the terminal window
 * Change the directory to where you want to clone the repository to.
 * Paste the copied Git URL into the desired destination and click "Ok".
+* Set the following environment variables
+
+```
+# env.py
+
+import os
+
+os.environ.setdefault('SECRET_KEY', <key here>)
+os.environ.setdefault('DEBUG', <True/False>)
+os.environ.setdefault('STRIPE_PUBLISHABLE', <key here>)
+os.environ.setdefault('STRIPE_SECRET', <key here>)
+os.environ.setdefault('STRIPE_SUCCESS_URL', <URL here>)
+os.environ.setdefault('STRIPE_CANCEL_URL', <URL here>)
+os.environ.setdefault('AWS_ACCESS_KEY_ID', <key here>)
+os.environ.setdefault('AWS_SECRET_ACCESS_KEY', <key here>)
+```
+
+* Add env.py to the .gitignore file
+* Migrate models to create database tables
+* Create superuser account to access the Django Admin Panel
+* Run the server locally
 
 ## Credits
 
