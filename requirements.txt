@@ -27,7 +27,7 @@ psycopg2==2.7.7
 pyasn1==0.4.8
 python-dateutil==2.8.1
 pytz==2019.3
-PyYAML==5.2
+PyYAML==5.4
 regex==2019.12.19
 requests==2.22.0
 rsa==3.4.2
